@@ -4,7 +4,7 @@ public class CGEmployee {
   private String firstName;
   private String lastName;
   private String empno;
-  private String salary;
+  private int salary;
   private String homeAddress;
   private String company;
   private String state;
@@ -12,7 +12,7 @@ public class CGEmployee {
   private boolean vaccinated;
 
 
-  public CGEmployee(String firstName, String lastName, String empno, String salary, String homeAddress, String company, String skill, boolean vaccinated) {
+  public CGEmployee(String firstName, String lastName, String empno, int salary, String homeAddress, String company, String skill, boolean vaccinated) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.empno = empno;
@@ -47,11 +47,11 @@ public class CGEmployee {
     this.empno = empno;
   }
 
-  public String getSalary() {
+  public int getSalary() {
     return salary;
   }
 
-  public void setSalary(String salary) {
+  public void setSalary(int salary) {
     this.salary = salary;
   }
 
@@ -92,5 +92,20 @@ public class CGEmployee {
 
   public void setVaccinated(boolean vaccinated) {
     this.vaccinated = vaccinated;
+  }
+
+  @Override
+  public String toString() {
+    return "CGEmployee{" +
+            "firstName:'" + firstName + '\'' +
+            ", lastName:'" + lastName + '\'' +
+            ", empno:'" + empno + '\'' +
+            ", salary:" + salary +
+            ", homeAddress:'" + homeAddress + '\'' +
+            ", company:'" + company + '\'' +
+            ", state:'" + state + '\'' +
+            ", skill:'" + skill + '\'' +
+            ", vaccinated:" + vaccinated +
+            '}';
   }
 }
