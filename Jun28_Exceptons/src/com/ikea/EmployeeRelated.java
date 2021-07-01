@@ -9,6 +9,16 @@ import java.util.Set;
 public class EmployeeRelated {
     public void isVaccinated(List<CGEmployee> cgEmployeeList) {
 
+        int[] myNumbers = {1, 2, 3};
+        System.out.println(myNumbers[10]);
+
+        //try {
+          //int[] myNumbers = {1, 2, 3};
+           //System.out.println(myNumbers[10]);
+        //} catch (Exception e) {
+          //  System.out.println("Something went wrong.");
+        //}
+
         int count1 = 0;
         int count2 = 0;
 
