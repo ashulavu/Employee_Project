@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="deployment-framework" />
+      <option name="name" value="deployment-framework" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sapp_app" />
+      <option name="name" value="sapp_app" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="deployment_archives" />
+      <option name="name" value="deployment_archives" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="data_cache-dev" />
+      <option name="name" value="data_cache-dev" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="oracle-soa-integration" />
+      <option name="name" value="oracle-soa-integration" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="deployment_archives-dev" />
+      <option name="name" value="deployment_archives-dev" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="oracle-soa-tools" />
+      <option name="name" value="oracle-soa-tools" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="data_cache" />
+      <option name="name" value="data_cache" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="oracle-soa-integration-dev" />
+      <option name="name" value="oracle-soa-integration-dev" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sapp_app-dev" />
+      <option name="name" value="sapp_app-dev" />
+      <option name="url" value="https://iiptools.ikea.com/nexus/content/groups/public/" />
+    </remote-repository>
+  </component>
+</project>
