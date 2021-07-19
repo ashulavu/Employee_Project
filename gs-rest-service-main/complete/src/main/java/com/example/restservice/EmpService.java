@@ -8,12 +8,10 @@ import java.util.List;
 @Service
 public class EmpService {
     List<CGEmployee> cgEmployeeList = new ArrayList<>();
-
-    public List<CGEmployee> getEmployeeList() {
+    public List<CGEmployee> getEmployeeList(){
         return cgEmployeeList;
     }
-
-    public List<CGEmployee> createEmployeeList(CGEmployee employee) {
+    public List<CGEmployee> createEmployeeList(CGEmployee employee){
         cgEmployeeList.add(employee);
         return cgEmployeeList;
     }
